@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-10-01T16:02:14.943616+00:00",
+  "status": "error",
+  "path": "codespaces",
+  "python": {
+    "version": "3.14.7",
+    "expected": "3.11.x",
+    "ok": false
+  },
+  "environment": {
+    "name": null,
+    "expected": "asi-ml",
+    "ok": false
+  },
+  "packages": {
+    "numpy": {
+      "version": null,
+      "expected": "2.4.6",
+      "import_ok": false,
+      "version_ok": false
+    },
+    "pandas": {
+      "version": null,
+      "expected": "3.0.6",
+      "import_ok": false,
+      "version_ok": false
+    },
+    "matplotlib": {
+      "version": null,
+      "expected": null,
+      "import_ok": false,
+      "version_ok": true
+    },
+    "scikit-learn": {
+      "version": null,
+      "expected": "1.9.1",
+      "import_ok": false,
+      "version_ok": false
+    },
+    "ipykernel": {
+      "version": null,
+      "expected": "7.3.0",
+      "import_ok": false,
+      "version_ok": false
+    }
+  },
+  "tools": {
+    "pytest": {
+      "version": null,
+      "expected": null,
+      "version_ok": true
+    },
+    "pre-commit": {
+      "version": null,
+      "expected": "4.6.2",
+      "version_ok": false
+    },
+    "ruff": {
+      "version": null,
+      "expected": "0.16.9",
+      "version_ok": false
+    },
+    "nbstripout": {
+      "version": null,
+      "expected": null,
+      "version_ok": true
+    }
+  },
+  "git": {
+    "user_name_configured": true,
+    "user_email_configured": true,
+    "pre_commit_hook_installed": true
+  },
+  "jupyter": {
+    "asi_ml_kernel_registered": false
+  },
+  "system": {
+    "os": "Linux",
+    "architecture": "x86_64",
+    "ram_gb": 7.8,
+    "docker": {
+      "installed": false,
+      "running": false
+    }
+  },
+  "failures": [
+    "Python ma wersję 3.14.7, a oczekiwana jest linia 3.11.x.",
+    "Aktywne środowisko to brak, a oczekiwane jest asi-ml.",
+    "Nie działa import pakietu numpy: ModuleNotFoundError: No module named 'numpy'.",
+    "Pakiet numpy nie jest zainstalowany.",
+    "Nie działa import pakietu pandas: ModuleNotFoundError: No module named 'pandas'.",
+    "Pakiet pandas nie jest zainstalowany.",
+    "Nie działa import pakietu matplotlib: ModuleNotFoundError: No module named 'matplotlib'.",
+    "Pakiet matplotlib nie jest zainstalowany.",
+    "Nie działa import pakietu scikit-learn: ModuleNotFoundError: No module named 'sklearn'.",
+    "Pakiet scikit-learn nie jest zainstalowany.",
+    "Nie działa import pakietu ipykernel: ModuleNotFoundError: No module named 'ipykernel'.",
+    "Pakiet ipykernel nie jest zainstalowany.",
+    "Narzędzie pytest nie jest zainstalowane.",
+    "Narzędzie pre-commit nie jest zainstalowane.",
+    "Narzędzie ruff nie jest zainstalowane.",
+    "Narzędzie nbstripout nie jest zainstalowane.",
+    "Kernel Jupyter \"asi-ml\" nie jest zarejestrowany. Uruchom: python -m ipykernel install --user --name asi-ml --display-name \"Python (asi-ml)\""
+  ],
+  "warnings": [
+    "Docker nie jest zainstalowany. Nie blokuje to pierwszych zajęć."
+  ]
+}
